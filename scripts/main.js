@@ -1,4 +1,9 @@
 /* Playing with JavaScript */
 
-var myFavoriteMovie = prompt("What is your favorite movie?");
-alert("My favorite movie is " + myFavoriteMovie);
+var answer = prompt("What is the capital of Serbia?");
+
+if (answer === "Belgrade") {
+    console.log("You are correct");
+} else {
+    console.log("You are wrong");
+}
