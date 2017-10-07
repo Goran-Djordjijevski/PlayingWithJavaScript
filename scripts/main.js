@@ -1,3 +1,4 @@
 /* Playing with JavaScript */
 
-console.log(typeof(undefined));
+var myFavoriteMovie = prompt("What is your favorite movie?");
+alert("My favorite movie is " + myFavoriteMovie);
