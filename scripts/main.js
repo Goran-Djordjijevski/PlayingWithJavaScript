@@ -1,9 +1,9 @@
 /* Playing with JavaScript */
 
-var answer = prompt("What is the capital of Serbia?");
+var randomNumber = Math.round(Math.random() * 5);
 
-if (answer === "Belgrade") {
-    console.log("You are correct");
-} else {
-    console.log("You are wrong");
+if (randomNumber % 3 === 0) {
+    console.log("Fizz");
+} else if (randomNumber % 5 === 0) {
+    console.log("Buzz");
 }
