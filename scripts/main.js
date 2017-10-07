@@ -1,3 +1,3 @@
 /* Playing with JavaScript */
 
-console.table(["first", "second"]);
+console.log(typeof(undefined));
