@@ -1,8 +1,10 @@
 /* Playing with JavaScript */
 
-var friends = ["Mark", "Lisa", "Denny"];
-console.log(friends);
+var myCoffee = {
+    flavor: "espresso",
+    temperature: "piping hot",
+    ounces: 100,
+    milk: true
+};
 
-friends.forEach(function(element) {
-    console.log(element)
-}, this);
+console.log(myCoffee.flavor);
