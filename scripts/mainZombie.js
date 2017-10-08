@@ -1,14 +1,15 @@
 /* Playing with JavaScript */
 
-alert("It is the zombie apocalypse. You are looting a store and suddenly a zombie burst through the door!");
+// First game 
+// alert("It is the zombie apocalypse. You are looting a store and suddenly a zombie burst through the door!");
 
-var weapon = prompt("You search around frantically for a weapon. What do you choose? A bow and arrow, an axe, or a rubber chicken?");
-var randomNumber = Math.round(Math.random());
+// var weapon = prompt("You search around frantically for a weapon. What do you choose? A bow and arrow, an axe, or a rubber chicken?");
+// var randomNumber = Math.round(Math.random());
 
-alert("You attack the zombie with your " + weapon);
+// alert("You attack the zombie with your " + weapon);
 
-if (randomNumber === 0) {
-    alert("The zombie bites you. You lose!!!");
-} else if (randomNumber === 1) {
-    alert("You kill the zombie with your " + weapon + ". You win.");
-}
+// if (randomNumber === 0) {
+//     alert("The zombie bites you. You lose!!!");
+// } else if (randomNumber === 1) {
+//     alert("You kill the zombie with your " + weapon + ". You win.");
+// }
